@@ -14,7 +14,7 @@ function addCars(){
         runAddition();
     }
     else {
-        alert("Please Fill in All the Fields");
+        alert("Please Fill in All the Fields Correctly");
     }
 
     function runAddition(){
