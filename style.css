@@ -18,6 +18,9 @@ body {
     border-radius: .5em;
     padding: 1em;
 }
+#bannerImage {
+    width: 30em;
+}
 h1 {
     color: #6368a3;
 }
