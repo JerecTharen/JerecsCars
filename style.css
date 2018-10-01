@@ -1,0 +1,45 @@
+
+html, body {
+    height: auto;
+    width: 100%;
+}
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background-color: #2a2e45;
+    color: #9e8576;
+}
+
+.container {
+    margin: auto;
+    margin-top: 5em;
+    border: solid 2em #7a542e;
+    border-radius: .5em;
+    padding: 1em;
+}
+h1 {
+    color: #6368a3;
+}
+input {
+    background-color: #a499be;
+    color: #22170d;
+}
+button {
+    background-color: #9ba2ff;
+    border-radius: .25em;
+}
+li {
+    color: #7f85d1;
+}
+
+.inputPlace {
+    display: flex;
+    flex-direction: column;
+}
+.inputPlace div {
+    margin: 1em;
+}
+.btnContainer {
+    align-self: center;
+}

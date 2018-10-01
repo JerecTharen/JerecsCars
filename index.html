@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Javascript Practice</title>
+    <script src="script.js" type="text/javascript" defer>
+
+    </script>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Welcome to Jerec's Cars!</h1>
+        <div class="mainContent">
+            <ul id="carsList">
+                <li>Sorry no cars are available at this time.</li>
+            </ul>
+        </div>
+        <div class="inputPlace">
+            <div>
+                <label for="carName">Name: </label>
+                <input type="text" id="carName" required>
+            </div>
+            <div>
+                <label for="carPrice">Price: </label>
+                <input type="number" id="carPrice" required>
+            </div>
+            <div>
+                <label for="userEmail">Your E-mail: </label>
+                <input type="text" id="userEmail" required>
+            </div>
+            <div class="btnContainer">
+                <button onclick="addCars()">Add Listing</button>
+            </div>
+
+        </div>
+    </div>
+
+
+</body>
+</html>
